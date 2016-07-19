@@ -1,7 +1,9 @@
 <?php
 use Illuminate\Http\Request;
 
-
+Route::macro('after', function ($callback) {
+    $this->events->listen('router.filter:after:newrelic-patch', $callback);
+});
 
 
 Route::group(['middleware' => ['web']], function () {
