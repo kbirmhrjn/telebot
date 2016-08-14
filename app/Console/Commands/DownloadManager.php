@@ -46,7 +46,7 @@ class DownloadManager extends Command
         if(! is_dir('./downloads') ) mkdir('./downloads');
         $links = collect($this->urls);
         $links->each(function($link, $key){
-            $this->download('./downloads/'.$key . '.mp4', $link);
+            $this->download('./downloads/'.$key . '.zip', $link);
         });
         $this->zipDir();
         $this->info('Done!!!');
