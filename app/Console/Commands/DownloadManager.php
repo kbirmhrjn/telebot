@@ -23,8 +23,8 @@ class DownloadManager extends Command
     protected $description = 'Download Videos and all';
 
     protected $urls = [
-        'stubbing-eloquent-relations-for-faster-tests' => 'https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/518/7/177591203/577715584.mp4?token=57b57606_0xda37e740c1856f9a352417130c07466fac3ed963'.
-        'approaches-to-testing-events-in-laravel' => 'https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/786/7/178931955/583267193.mp4?token=57b57a37_0xc1636108309748ddc75ead41bee52aac195d524e   '
+        'stubbing-eloquent-relations-for-faster-tests' => 'https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/518/7/177591203/577715584.mp4?token=57b57606_0xda37e740c1856f9a352417130c07466fac3ed963',
+        'approaches-to-testing-events-in-laravel' => 'https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/786/7/178931955/583267193.mp4?token=57b57a37_0xc1636108309748ddc75ead41bee52aac195d524e',
     ];
 
     /**
