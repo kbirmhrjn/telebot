@@ -57,7 +57,6 @@ class DownloadManager extends Command
     {
         if(! is_dir('./downloads') ) mkdir('./downloads');
         $links = collect($this->urls);
-        dd($links);
         $bar = $this->output->createProgressBar( $links->count() );
         $this->info('Download Status:');
         $links->each(function($link, $key) use($bar){
